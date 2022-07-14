@@ -5,6 +5,8 @@
   --blue-500: #4EA8DE;
   --blue-900: #1E6F9F;
 
+  --rgb-blue-900: rgb(30,111,159);
+
   --gray-100: #F2F2F2;
   --gray-200: #D9D9D9;
   --gray-300: #808080;
@@ -37,4 +39,13 @@ body, input, textarea, button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 1.4;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed
 }

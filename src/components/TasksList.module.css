@@ -1,0 +1,67 @@
+.tasksList {
+  margin-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasksList header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 1.5rem;
+ }
+
+.tasksIndicator {
+  display: flex;
+  gap: 0.5rem;
+
+  color: var(--blue-500);
+}
+
+.tasksIndicator:not(:first-child) {
+  color: var(--purple-500);
+}
+
+.tasksIndicator div {
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  padding: 0 0.5rem;
+
+  border-radius: 10px;
+}
+
+.empty {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid var(--gray-500);
+  padding: 4rem 1.5rem;
+}
+
+.empty div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
